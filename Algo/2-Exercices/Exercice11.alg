@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description courant="AFFICHER &quot; an(s) pour doubler le capital&quot;" texte=""/>
+    <description texte="" courant="AFFICHER &quot; an(s) pour doubler le capital&quot;"/>
     <extension extnom="inactif"/>
-    <fonction fctcode="" fctetat="inactif"/>
-    <F2 F2defaut="" F2etat="inactif" F2para="" F2lignes=""/>
+    <fonction fctetat="inactif" fctcode=""/>
+    <F2 F2lignes="" F2para="" F2etat="inactif" F2defaut=""/>
     <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
-    <param maxBoucle="500000" arrondiAuto="vrai" totalBoucles="5000000" epaisseurLigne="2" totalAffichages="1000" epaisseurPoint="2" nbDecimales="8"/>
+    <param epaisseurPoint="2" maxBoucle="500000" nbDecimales="8" totalAffichages="1000" totalBoucles="5000000" epaisseurLigne="2" arrondiAuto="vrai"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
     <item algoitem="VARIABLES" code="100#declarationsvariables">
         <item algoitem="CI EST_DU_TYPE NOMBRE" code="1#NOMBRE#CI"/>
@@ -23,7 +23,7 @@
         <item algoitem="TANT_QUE (CF &lt; CI * 2) FAIRE" code="15#CF &lt; CI * 2">
             <item algoitem="DEBUT_TANT_QUE" code="16#debuttantque"/>
             <item algoitem="I PREND_LA_VALEUR I + 1" code="5#I#I + 1#pasliste"/>
-            <item algoitem="CF PREND_LA_VALEUR round(CI * pow(1+T,I))" code="5#CF#round(CI * pow(1+T,I))#pasliste"/>
+            <item algoitem="CF PREND_LA_VALEUR floor(CI * pow(1+T,I))" code="5#CF#floor(CI * pow(1+T,I))#pasliste"/>
             <item algoitem="FIN_TANT_QUE" code="17#fintantque"/>
         </item>
         <item algoitem="AFFICHER &quot;Il faudra &quot;" code="4#Il faudra #0"/>
