@@ -26,6 +26,14 @@ main{
     background-color: bisque;
 }
 
+main a{
+    color: rgb(40, 40, 40);
+}
+
+main a:hover{
+    color: orangered;
+}
+
 footer {
     background-color: coral;
     padding: 10px;
@@ -41,4 +49,5 @@ footer a {
 .container{
     margin: 0;
     padding: 10px;
+    text-align: left;
 }
