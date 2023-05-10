@@ -12,7 +12,7 @@ body{
 }
 
 .subTitle{
-
+    font-weight: normal;
 }
 
 .liens{
@@ -26,12 +26,21 @@ body{
     font-weight: bold;
 }
 
+.conteneur{
+    background-color: aquamarine;
+    border: 1px dotted red;
+}
+.bold{
+    font-weight: bold;
+}
 #header{
     border: 1px solid black;   
 }
 
 #header:hover{
     font-size: 25px;
+    cursor: pointer;
+    background-color: aquamarine;
 }
 #main{
     border: 1px solid orangered;    
