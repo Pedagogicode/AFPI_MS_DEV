@@ -2,19 +2,47 @@ body{
     text-align: center;
 }
 
-#header{
-    
+.element{
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
-#main{
+.title{
+    text-decoration : underline;
+}
 
+.subTitle{
+
+}
+
+.liens{
+    text-decoration: none;
+    color: brown;
+}
+
+.liens:hover{
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#header{
+    border: 1px solid black;   
+}
+
+#header:hover{
+    font-size: 25px;
+}
+#main{
+    border: 1px solid orangered;    
 }
 
 #aside{
-
+    border: 1px solid green;    
 }
 
 #footer{
-
+    padding: 20px;
+    border: 1px solid blue;
 }
 
