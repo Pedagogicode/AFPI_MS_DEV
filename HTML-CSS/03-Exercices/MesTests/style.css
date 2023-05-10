@@ -3,3 +3,14 @@ body{
     background-color: darkcyan;
     color: white;
 }
+
+.left{
+    text-align:left;
+    color: rgb(51, 51, 51);
+}
+
+
+.right{
+    text-align:right;
+    color: rgb(242, 145, 0);
+}
