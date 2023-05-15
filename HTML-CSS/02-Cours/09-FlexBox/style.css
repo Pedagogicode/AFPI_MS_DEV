@@ -30,11 +30,11 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     height: 100px;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .cont-item {
@@ -44,7 +44,7 @@ body {
 
 
 .spaced {
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 .order1{
