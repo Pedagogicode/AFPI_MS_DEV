@@ -26,6 +26,9 @@ li a {
     height: 30px;
 }
 
-.userBorder{
+.colBorder{
+    border: 1px dotted rgb(0, 94, 255);
+}
+.itemBorder{
     border: 1px dotted red;
 }
