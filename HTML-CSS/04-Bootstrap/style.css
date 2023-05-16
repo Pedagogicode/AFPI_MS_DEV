@@ -5,6 +5,13 @@ body {
 
 header {
     text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style-type: none;
 }
 
 li a {
@@ -17,4 +24,8 @@ li a {
 
 .svgSize{
     height: 30px;
+}
+
+.userBorder{
+    border: 1px dotted red;
 }
