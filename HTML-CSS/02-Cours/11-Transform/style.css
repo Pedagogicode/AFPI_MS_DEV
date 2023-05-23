@@ -31,8 +31,6 @@ ol {
     list-style-type: none;
 }
 
-.crumbs ol {}
-
 .crumb {
     display: inline-block;
 }
