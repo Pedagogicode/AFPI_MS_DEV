@@ -1,8 +1,12 @@
 @font-face {
     font-family: 'Roboto';
+    /* font-family: 'BebasNeue'; */
     src: url(‘/fonts/BebasNeue.otf’)
 }
 
+/*
+    BALISE SELECTOR
+*/
 
 body {
     background-color: black;
@@ -13,8 +17,11 @@ body {
 header {
     background-image: url(./assets/images/background.jpg);
     height: 800px;
-
 }
+
+/*
+    CLASS SELECTOR
+*/
 
 .header {
     text-align: center;
@@ -65,6 +72,7 @@ header {
 
 .relative {
     position: relative;
+    z-index: 99;
 }
 
 .absolute {
@@ -135,40 +143,32 @@ header {
     font-weight: 900;
 }
 
-#Search {
-    background-color: rgba(30, 30, 30, 0.8);
-    color: white;
-    height: 60px;
-    width: 500px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid gray;
+.Questions {
+    margin-top: 80px;
 }
 
-#Search::placeholder {
+.colonne {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
 
+.colonne a {
     color: white;
-    opacity: 1;
     font-size: 15px;
-    font-weight: lighter;
+    margin: 10px 0;
 }
 
-#commencer {
-    margin-left: 10px;
-    height: 60px;
-    width: 300px;
-    font-weight: bold;
+.space {
+    margin: 50px 0 35px 0;
+}
+.space2 {
+    margin: 25px 0 80px 0;
 }
 
-#faq {
-    font-size: 20px;
-    margin: 60px;
-}
-
-/* .accordion{
-    background-color:black;
-    color: white;
-} */
+/* 
+    ACCORDION
+*/
 .accordion-body {
     background-color: rgb(58, 55, 55);
     font-size: 25px;
@@ -206,25 +206,35 @@ header {
     border-bottom: 1px solid black;
 }
 
-.Questions {
-    margin-top: 80px;
-}
-
-.colonne {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-.colonne a {
+/*
+    ID SELECTOR
+*/
+#Search {
+    background-color: rgba(30, 30, 30, 0.8);
     color: white;
-    font-size: 15px;
-    margin: 10px 0;
+    height: 60px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
-.space {
-    margin: 50px 0 35px 0;
+#Search::placeholder {
+
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: lighter;
 }
-.space2 {
-    margin: 25px 0 80px 0;
+
+#commencer {
+    margin-left: 10px;
+    height: 60px;
+    width: 300px;
+    font-weight: bold;
+}
+
+#faq {
+    font-size: 20px;
+    margin: 60px;
 }
