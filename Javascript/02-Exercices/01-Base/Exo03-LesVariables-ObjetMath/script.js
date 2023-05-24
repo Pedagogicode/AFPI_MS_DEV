@@ -33,9 +33,6 @@ affichage+= `la valeur <b>&#960;</b> est : <b>${pi}</b><br>`;
 diametre = Number(prompt("Veuillez saisir le diamètre du cercle : "));
 
 
-
-
-
 /**
  * COMPUTING
  */
